@@ -13,7 +13,7 @@ class Person {
     }
 
     set age(age) {
-       this._age = age;
+       return this._age;
     }
 }
 
